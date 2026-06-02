@@ -25,6 +25,26 @@
       line-height: 0;          /* 彻底消除行高影响 */
       vertical-align: top;     /* 虽然 block 下无影响，但保留以防修改 */
     }
+    .image-list a {
+  display: block;
+  width: 300px;              /* 按钮宽度，可按需调整 */
+  margin: 40px auto;         /* 上下间距30px，左右自动居中 */
+  padding: 12px 0;           /* 上下内边距，让按钮有高度 */
+  background-color: #000000; /* 背景色，可换成您喜欢的颜色 */
+  color: #ffffff;               /* 文字白色 */
+  text-align: center;
+  text-decoration: none;     /* 去掉下划线 */
+  font-size: 30px;
+  border-radius: 6px;        /* 圆角 */
+  transition: background-color 0.3s;
+}
+
+/* 鼠标悬停时颜色加深 */
+.image-list a:hover {
+  background-color: #357abd;
+}
+  }
+  
   </style>
 </head>
 <body>
@@ -50,10 +70,10 @@
     <img src="sjzpj/17.jpg" alt="">
     <img src="sjzpj/18.jpg" alt="">
     <img src="sjzpj/19.jpg" alt="">
-    <img src="sjzpj/20.mp4" alt="">
+    <a href="https://www.zcool.com.cn/work/ZNzE2OTQ4NzI=.html" target="_blank" rel="noopener noreferrer">点击查看showreel</a>
     <img src="sjzpj/21.jpg" alt="">
     <img src="sjzpj/22.jpg" alt="">
-    <img src="sjzpj/fcrs.jpg" alt="">
+    <a href="https://www.zcool.com.cn/u/21547413" target="_blank" rel="noopener noreferrer">点击查看练习作品</a>
     <img src="sjzpj/24.jpg" alt="">
   </div>
 
